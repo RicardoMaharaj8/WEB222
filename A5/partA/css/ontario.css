@@ -1,0 +1,56 @@
+/* task 1 */
+body {
+    width: 80%;
+    align-content: center;
+    margin: auto;
+}
+
+/* task 2 */
+h2 {
+    color: darkblue;
+    background: #cccccc;
+}
+
+/* task 3 */
+#paragraph2 {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 20pt;
+}
+
+/* task 4 */
+span.on {
+    color: #5cb85c;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* task 5 */
+div#section2 table {
+    background-image: url("https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX23025384.jpg");
+    background-repeat: repeat;
+    color: #2f4f4f;
+}
+
+/* task 6 */
+thead, tfoot {
+    background: rgba(255, 255, 0, 0.6);
+}
+
+/* task 7 */
+p:hover {
+    color: #0011ff;
+}
+
+/* task 8 */
+ul {
+    list-style: square;
+}
+
+ol {
+    list-style: lower-alpha;
+}
+
+/* task 9 */
+footer {
+    text-align: center;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Maharaj</title>
+<script src="info.js"></script>
+<link href="normalize.css" rel="stylesheet" type="text/css"/>
+
+<div class="info">
+    <div class="head">
+        <h1>Ricardo Maharaj's Site</h1>
+    </div>
+
+    <div class="body">
+        <div class="nav">
+            <p><a href="info.html">INFO</a></p>
+            <p><a href="honesty.html">HONESTY</a></p>
+        </div>
+
+        <div class="main">
+            <form id="signup" action="https://httpbin.org/post" method="post" onsubmit="return validate()">
+                First Name: <input type="text" name="first" id="first" required pattern="[A-Z]+[a-z]+"> <br> <br>
+                Last Name: <input type="text" name="last" id="last" required pattern="[A-Z]+[a-z]+"> <br> <br>
+                Password: <input type="password" name="psswd" id="psswd" required> <br> <br>
+                Username: <input type="text" name="username" id="username" required> <br> <br>
+
+                Education Level
+                <select name="level" id="level" required>
+                    <option value="0"> -select-</option>
+                    <option value="Technical Diploma"> Technical Diploma</option>
+                    <option value="College Diploma"> College Diploma</option>
+                    <option value="Bachelor's Degree"> Bachelor's Degree</option>
+                    <option value="Master's Degree"> Master's Degree</option>
+                    <option value="Others"> Others</option>
+                </select> <br> <br>
+                Education Status:
+                <input type="radio" name="status" value="Graduated" required> Graduated
+                <input type="radio" name="status" value="Current enrolled"> Current enrolled
+                <input type="radio" name="status" value="Did not graduate"> Did not graduate
+                <br> <br>
+
+                Email: <input type="email" name="email" id="email" required> <br> <br>
+                Age: <input type="number" name="age" id="age" min="18" max="60" required> <br> <br>
+
+                <input type="hidden" name="lastName" id="lastName" value="Maharaj">
+                <input type="hidden" name="studentId" id="studentId" value="160058186">
+                <input type="submit" value="submit"> <input type="reset" value="reset">
+                <br>
+            </form>
+        </div>
+
+        <div id="side">SIDE BAR</div>
+    </div>
+
+    <div class="foot">
+        <p>&copy 2019 - Ricardo Maharaj</p>
+    </div>
+</div>
+
+</html>

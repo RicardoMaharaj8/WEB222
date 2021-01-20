@@ -1,0 +1,45 @@
+html {
+    background: lavender;
+}
+
+.head {
+    color: slategrey;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: 2% 25%;
+}
+
+.body {
+    border: 5px solid black;
+    border-radius: 10px;
+    display: table;
+    margin: 0 25%;
+}
+
+.nav {
+    padding: 1%;
+    width: 15%;
+    display: table-cell;
+}
+
+.main {
+    padding: 1%;
+    width: 90%;
+    display: table-cell;
+}
+
+.side {
+    padding: 1%;
+    width: 15%;
+    display: table-cell;
+}
+
+.foot {
+    font-style: italic;
+    color: slategrey;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: 2% 25%;
+}

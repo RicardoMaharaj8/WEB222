@@ -1,0 +1,19 @@
+table {
+    text-align: center;
+}
+
+tr#price td {
+    font-weight: bold;
+}
+
+tr#title {
+    font-size: 2em;
+}
+
+tr#oem {
+    font-size: 1.3em;
+}
+
+tr#names {
+    font-size: 1.1em;
+}
